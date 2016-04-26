@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapExceptionLog protocol="1" executable="Lingo" executableVersion="10.0.0.0" localDate="2016-04-26T07:09:01.9506327-07:00">
+    <OS arch="x64" frameworkVersion="4.0.30319.42000" version="Microsoft Windows NT 10.0.10586.0" />
+    <Exception type="System.ObjectDisposedException" message="Cannot access a disposed object.&#xD;&#xA;Object name: 'SQLiteConnection'." stackTrace="   at System.Data.SQLite.SQLiteConnection.CheckDisposed()&#xD;&#xA;   at System.Data.SQLite.SQLiteConnection.get_State()&#xD;&#xA;   at System.Data.SQLite.SQLiteTransaction.IsValid(Boolean throwError)&#xD;&#xA;   at System.Data.SQLite.SQLiteTransaction.Dispose(Boolean disposing)&#xD;&#xA;   at B3.SqlKit.DatabaseWrapper.Dispose(Boolean disposing)&#xD;&#xA;   at B3.SqlKit.DatabaseWrapper.Finalize()" source="System.Data.SQLite" />
+    <User machineID="81e57e76a9fb2cd9c54118e4e0a88c00939ae591" />
+</MadCapExceptionLog>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapExceptionLog protocol="1" executable="Lingo" executableVersion="10.0.0.0" localDate="2016-04-26T07:08:44.9751150-07:00">
+    <OS arch="x64" frameworkVersion="4.0.30319.42000" version="Microsoft Windows NT 10.0.10586.0" />
+    <Exception type="System.InvalidOperationException" message="Database is not open" stackTrace="   at System.Data.SQLite.SQLiteCommand.InitializeForReader()&#xD;&#xA;   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)&#xD;&#xA;   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)&#xD;&#xA;   at B3.LingoProjectKit.ProjectPropertyCache.SetTranslationStatus(IUrl url, FileTranslationStatus status, String language)&#xD;&#xA;   at B3.LingoProjectKit.LingoProject.SetTranslationStatus(IUrl file, FileTranslationStatus status, String language, XliffFile xlf, Boolean saveXlf)&#xD;&#xA;   at B3.LingoProjectKit.BundleCreatorController.MakeLingoBundle()&#xD;&#xA;   at B3.LingoProjectKit.BundleCreatorController.Process()&#xD;&#xA;   at B3.LingoControlsKit.BundleCreatorProgressDialog.Do()&#xD;&#xA;   at B3.AppKit.Dialog.OnDoBackgroundThreadTaskRoot()" source="System.Data.SQLite" />
+    <User machineID="81e57e76a9fb2cd9c54118e4e0a88c00939ae591" />
+</MadCapExceptionLog>
